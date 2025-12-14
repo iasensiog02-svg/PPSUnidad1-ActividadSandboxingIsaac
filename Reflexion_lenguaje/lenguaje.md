@@ -1,27 +1,27 @@
 # Reflexión personal sobre las medidas de seguridad en los lenguajes de programación
-
-La elección de un lenguaje de programación no es únicamente una cuestión de sintaxis o comodidad, sino también un factor que influye directamente en la seguridad del software. Tal como se menciona en los contenidos teóricos, el lenguaje puede actuar como una “cerradura” que protege o expone un sistema, dependiendo de sus características y de cómo se utilice.
+Elegir un lenguaje de programación no solo tiene que ver con cómo se escribe el código, sino también con qué tan seguro puede llegar a ser un programa.
 
 ## Lenguajes de bajo nivel
-Los lenguajes de bajo nivel ofrecen un control muy preciso sobre la memoria y el hardware, como ocurre en C o ensamblador.  
-Este control permite desarrollar software muy eficiente, pero también introduce riesgos frecuentes, como desbordamientos de búfer o errores en el uso de punteros. En estos casos, la seguridad depende en gran medida de la experiencia y atención del programador.
+Los lenguajes de bajo nivel, como C o ensamblador, permiten tener un control muy directo sobre cómo funciona la computadora.
+Esto ayuda a crear programas rápidos y eficientes, pero también hace que sea más fácil cometer errores. Si el programador no es cuidadoso, pueden aparecer fallos que afecten la seguridad del programa.
 
 ## Lenguajes de alto nivel e híbridos
-Lenguajes como Java o C# incorporan mecanismos de protección que facilitan el desarrollo de software más seguro, entre ellos:
-- Gestión automática de memoria.
-- Verificación estricta de tipos.
-- Uso de máquinas virtuales como capa de aislamiento frente al sistema operativo.
-- Detección temprana de errores de sintaxis.
+Lenguajes como Java o C# están pensados para facilitar el trabajo del programador y reducir errores comunes. Estos lenguajes incluyen ayudas como:
 
-Estas características reducen la probabilidad de vulnerabilidades comunes, aunque no garantizan una seguridad absoluta.
+- Manejo automático de la memoria.
+- Control para evitar errores al usar los datos.
+- Detección de errores desde el inicio.
+- Una capa extra de protección entre el programa y el sistema.
+
+Gracias a estas características, es más sencillo crear programas más seguros, aunque esto no garantiza una seguridad total.
 
 ## Paradigmas de programación y seguridad
-Los paradigmas de programación también influyen en la seguridad del software.  
-La programación orientada a objetos fomenta la encapsulación y la modularidad, lo que ayuda a reducir errores y accesos indebidos a los datos.  
-Por su parte, la programación funcional limita los efectos secundarios y los cambios inesperados en el estado del programa, contribuyendo a una gestión más segura de la información.
+La forma en que se organiza el código también influye en la seguridad.
+Cuando el programa está bien dividido y ordenado, es más fácil controlar los datos y evitar errores.
+Además, hay formas de programar que ayudan a reducir cambios inesperados dentro del programa, lo que hace que sea más confiable.
 
 ## Entornos de desarrollo
-Los entornos de desarrollo modernos incorporan herramientas como análisis estático, depuración y pruebas automatizadas, que ayudan a detectar errores y posibles vulnerabilidades durante el desarrollo. Aun así, estas herramientas no sustituyen la responsabilidad del programador.
+Los programas que se usan para programar hoy en día incluyen herramientas que ayudan a encontrar errores antes de que el software esté terminado. Estas herramientas son de gran ayuda, pero no reemplazan la atención y responsabilidad del programador.
 
 ## Conclusión personal
-En mi opinión, aunque ningún lenguaje puede garantizar la seguridad total, algunos ofrecen características que facilitan la creación de software más robusto. Por ello, es fundamental elegir el lenguaje adecuado para cada proyecto, conocer sus limitaciones y aplicar buenas prácticas de programación para reducir riesgos de seguridad.
+En mi opinión, ningún lenguaje de programación es totalmente seguro por sí solo. Sin embargo, algunos facilitan más la creación de programas confiables. Por eso, es importante elegir el lenguaje adecuado, conocer sus límites y aplicar buenas prácticas para reducir los riesgos de seguridad.
