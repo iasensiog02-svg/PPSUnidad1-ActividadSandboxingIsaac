@@ -63,7 +63,7 @@ PYTHONPATH=src python3 -m unittest tests/test_notas_unittest.py -v
 
 ```
 
-![foto](/Capturas/teest.png)
+![foto](/Capturas/test.png)
 
 ---
 
